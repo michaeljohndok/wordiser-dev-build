@@ -658,66 +658,6 @@ workbox.precaching.precacheAndRoute([
     "revision": "ced5ef0c10b466f3e0f2e64c082e69aa"
   },
   {
-    "url": "assets/images/js/addtohomescreen.min.js",
-    "revision": "f048f274a325ef04522148fd7ad7a88f"
-  },
-  {
-    "url": "assets/images/js/bootstrap.js",
-    "revision": "ed69cf59ee487638489ff8742a469e43"
-  },
-  {
-    "url": "assets/images/js/bootstrap.min.js",
-    "revision": "c5b5b2fa19bd66ff23211d9f844e0131"
-  },
-  {
-    "url": "assets/images/js/cbpAnimatedHeader.js",
-    "revision": "59c6fa707bc38b3dcdfb806728f9f9ae"
-  },
-  {
-    "url": "assets/images/js/classie.js",
-    "revision": "a9df1cfb76ce492afd9d13f3320272fd"
-  },
-  {
-    "url": "assets/images/js/creative.js",
-    "revision": "c67f3418f374a939058b44923dc88c57"
-  },
-  {
-    "url": "assets/images/js/css3-animate-it.js",
-    "revision": "67a319c9533b0611df3e2ea26f7dd3cf"
-  },
-  {
-    "url": "assets/images/js/demo.js",
-    "revision": "b15108b450a1e00991b4f0d928823fc5"
-  },
-  {
-    "url": "assets/images/js/jquery.easing.min.js",
-    "revision": "9cda9e740bbf260a190f4041132b5105"
-  },
-  {
-    "url": "assets/images/js/jquery.fittext.js",
-    "revision": "40635054e327b749517fbfc876906d27"
-  },
-  {
-    "url": "assets/images/js/jquery.js",
-    "revision": "3c9137d88a00b1ae0b41ff6a70571615"
-  },
-  {
-    "url": "assets/images/js/merge.js",
-    "revision": "1f7e566a855b304d8c07da8c15da6e06"
-  },
-  {
-    "url": "assets/images/js/parse-latest.js",
-    "revision": "3671d120ec901f2a4a2d0cdfadf45195"
-  },
-  {
-    "url": "assets/images/js/responsivevoice.js",
-    "revision": "c07eaecf617b8bb7d9b1a08c6144b0ac"
-  },
-  {
-    "url": "assets/images/js/wow.min.js",
-    "revision": "a26a117ff59c944bbb654bf506f69786"
-  },
-  {
     "url": "assets/images/logo_print.png",
     "revision": "56172628c17fa5a40aa2b7e43c75ea5a"
   },
@@ -830,14 +770,6 @@ workbox.precaching.precacheAndRoute([
     "revision": "c2c75ab0e96fffbefa02c9d292569696"
   },
   {
-    "url": "scripts/app-c5d523c8.js",
-    "revision": "ea350279712e5f2e7e53a675bc93321c"
-  },
-  {
-    "url": "scripts/vendor-53d9a67a.js",
-    "revision": "ba32c7089cd9d34e22142376532217a3"
-  },
-  {
     "url": "styles/app-06604eaa.css",
     "revision": "0f895d621e3d4542dc10ac16ef9ce180"
   },
@@ -846,46 +778,41 @@ workbox.precaching.precacheAndRoute([
     "revision": "b44d3b91a0ebe684720a271b35a4fb28"
   },
   {
-    "url": "sw.js",
-    "revision": "eb7087df39f4969a1950e07ac99a32c7"
-  },
-  {
     "url": "test.html",
     "revision": "6e19cd645b9975c80b5dd5698570d468"
   }
 ]);
 
-// workbox.routing.registerRoute(
-//   new RegExp('.*\.js'),
-//   workbox.strategies.networkFirst()
-// );
+workbox.routing.registerRoute(
+  new RegExp('.*\.js'),
+  workbox.strategies.networkFirst()
+);
 
-// workbox.routing.registerRoute(
-//   // Cache CSS files
-//   /.*\.css/,
-//   // Use cache but update in the background ASAP
-//   workbox.strategies.staleWhileRevalidate({
-//     // Use a custom cache name
-//     cacheName: 'css-cache',
-//   })
-// );
+workbox.routing.registerRoute(
+  // Cache CSS files
+  /.*\.css/,
+  // Use cache but update in the background ASAP
+  workbox.strategies.staleWhileRevalidate({
+    // Use a custom cache name
+    cacheName: 'css-cache',
+  })
+);
 
 
-// workbox.routing.registerRoute(
-//   // Cache image files
-//   /.*\.(?:png|jpg|jpeg|svg|gif)/,
-//   // Use the cache if it's available
-//   workbox.strategies.cacheFirst({
-//     // Use a custom cache name
-//     cacheName: 'image-cache',
-//     plugins: [
-//       new workbox.expiration.Plugin({
-//         // Cache only 20 images
-//         maxEntries: 20,
-//         // Cache for a maximum of a week
-//         maxAgeSeconds: 7 * 24 * 60 * 60,
-//       })
-//     ],
-//   })
-// );
-
+workbox.routing.registerRoute(
+  // Cache image files
+  /.*\.(?:png|jpg|jpeg|svg|gif)/,
+  // Use the cache if it's available
+  workbox.strategies.cacheFirst({
+    // Use a custom cache name
+    cacheName: 'image-cache',
+    plugins: [
+      new workbox.expiration.Plugin({
+        // Cache only 20 images
+        maxEntries: 20,
+        // Cache for a maximum of a week
+        maxAgeSeconds: 7 * 24 * 60 * 60,
+      })
+    ],
+  })
+);
