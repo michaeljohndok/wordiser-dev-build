@@ -1,7 +1,7 @@
 {
   "name": "Wordiser",
   "short_name": "Wordiser",
-  "start_url": "/",
+  "start_url": "/wordiser-dev-build/",
   "display": "fullscreen",
   "background_color": "#5D00BB",
   "theme_color": "#5D00BB",
