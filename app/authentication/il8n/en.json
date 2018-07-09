@@ -38,7 +38,11 @@
         },
         "MESSAGES": {
             "ACCESS_DENIED": "Username / Password Incorrect"
-        }
+        },
+        "dont_have_an":"Don't have an account? Join for free!",
+        "Username_or_email":"Username or email e.g. Rob or Rob@email.com",
+        "JOIN": "join english",
+        "Join_or_Login":"Join or Login"
     },
     "SIGNUP": {
         "TITLE": "Sign up",
