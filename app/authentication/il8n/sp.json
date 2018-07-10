@@ -1,21 +1,24 @@
 {
-    "MENU":{
-        "AUTH":{
-            "AUTH": "Autenticación",
-            "SETTINGS": "Configuraciones",
-            "LOGIN": "Iniciar sesión",
-            "SIGN_UP": "Regístrate",
-            "FORGOT": "Se te olvidó tu contraseña",
-            "LOCK": "Bloquear página",
-            "PROFILE": "Configuraciones",
-            "MANAGE": "Administrar configuración",
-            "CLASS": "Clase y estudiantes",
-            "REVIEW": "Listas de palabras de revisión"
+    "MENU": {
+        "AUTH": {
+            "PROFILE": "Settings",
+            "STUDYNOTE": "Study Notes",
+            "MANAGE": "Manage",
+            "CLASS": "Class and students",
+            "MyProgress": "My Progress",
+            "Contacts": "Contacts",
+            "Members": "Members",
+            "Cache_data": "Cache data",
+            "Category_data": "Category data",
+            "Irregular_data": "Irregular data",
+            "Tutorial_Data": "Tutorial_Data",
+            "Course_Data": "Course Data",
+            "Study_Notes": "Study Notes",
+            "Progress": "Progress",
+            "Worksheets": "Worksheets",
+            "Manager": "Manager",
+            "REVIEW": "Revision word lists"
         }
-    },
-    "HEADER":
-    {
-        "HEADING": "Triangular"
     },
     "LOGIN":
     {
@@ -45,12 +48,28 @@
         },
         "dont_have_an": "No tienes una cuenta? ¡Únete gratis!",
         "Username_or_email": "Nombre de usuario o correo electrónico, por ej. Juan o juan@email.com",
-        "JOIN": "Seleccione español",
+        "JOIN": "REGISTRATE Y ÚNETE",
         "Join_or_Login": "Únete o inicia sesión"
     },
     "SIGNUP":
     {
         "TITLE": "Regístrate",
+        "Username": "Nombre de usuario por ej. Juan",
+        "Username_has_been_taken": "¡Nombre de usuario ha sido tomado, por favor intente con otro nombre de usuario!",
+        "Email_in_use": "¡Correo electrónico en uso! Inicia sesión o prueba con otro.",
+        "Teacher": "Profesor",
+        "Student": "Estudiante",
+        "Please_select_a_role": "¡Por favor seleccione su rol como estudiante o maestro! Solo los estudiantes pueden hacer cursos.",
+        "My_first_language": " Mi primer idioma es...",
+        "School_you_work_at": "La escuela donde trabajas",
+        "privacy": "Acuerdo",
+        "View_agreement": "View_agreement",
+        "ACCEPT": "ACEPTAR",
+        "DONT_ACCEPT": "NO ACEPTAR",
+        "Pick": "Pick",
+        "aaaaaaaaaa": "aaaaaaaaaa",
+        "aaaaaaaaaa": "aaaaaaaaaa",
+        "aaaaaaaaaa": "aaaaaaaaaa",
         "NAME":
         {
             "LABEL": "Nombre",
@@ -83,22 +102,6 @@
             "NO_SIGNUP": "¡No se pudo registrar al usuario!"
         }
     },
-    "LOCK":
-    {
-        "TITLE": "Bienvenido de vuelta",
-        "LOGGED_OUT": "Has sido desconectado por inactividad. Ingrese su contraseña para volver a iniciar sesión.",
-        "PASSWORD":
-        {
-            "LABEL": "Contraseña",
-            "PLEASE_ENTER": "Por favor ingrese su contraseña."
-        },
-        "LOGIN": "Iniciar sesión",
-        "LOGOUT": "Cerrar sesión",
-        "MESSAGES":
-        {
-            "ACCESS_DENIED": "¡Nombre de usuario / contraseña incorrecta!"
-        }
-    },
     "FORGOT":
     {
         "TITLE": "¿Olvidaste tu contraseña?",
@@ -120,10 +123,39 @@
     },
     "PROFILE":
     {
+        "Pick": "Seleccionar",
+        "Logout": "Cerrar sesión",
+        "Points": "Puntos",
+        "Total_reviews": "Total de ejercicios realizados",
+        "Pick": "Seleccionar",
+        "Logout": "Cerrar sesión",
+        "Email": "Correo electrónico",
+        "Name": "Nombre",
+        "Location": "Ubicación",
+        "School": "Escuela",
+        "Website_or_blog": "Sitio web o blog",
+        "Twitter": "Twitter",
+        "Personal_description": "Descripción personal",
+        "Reset_TUTORIAL": "Restablecer TUTORIAL",
+        "Update": "Actualizar",
+        "Membership_type": "Tipo de afiliación",
+        "Language": "Idioma",
+        "Native": "Nativo",
+        "English_options": "Opciones en inglés",
+        "UK_spelling_pronunciation": "Ortografía / pronunciación del Reino Unido",
+        "US_spelling_pronunciation": "Ortografía / pronunciación en los Estados Unidos",
+        "Level": "Nivel",
+        "English_level": "Nivel de inglés",
+        "Rest_password": "Restablecer la contraseña",
+        "If_you_want_to_change_your_password": "Si desea cambiar su contraseña, haga clic en el botón de abajo. Se le enviará un correo electrónico.",
+        "Enable_add_home_screen": "Habilitar agregar pantalla de inicio",
+        "Receive_email_notifications": "Reciba notificaciones por correo electrónico",
+        "Update": "Actualizar",
+        "RESET": "REINICIAR",
         "TITLE": "Perfil",
         "NAME":
         {
-            "LABEL": "nombre",
+            "LABEL": "Nombre",
             "PLEASE_ENTER": "Por favor, escriba su nombre"
         },
         "EMAIL":
@@ -154,7 +186,7 @@
             "CURRENT": "Actual",
             "PLEASE_ENTER": "Por favor ingrese una contraseña",
             "MIN_LENGTH": "¡Su contraseña debe tener más de 8 caracteres de largo!",
-            "SAME_PASSWORD": "¡Debes ingresar la misma contraseña!d"
+            "SAME_PASSWORD": "¡Debes ingresar la misma contraseña!"
         },
         "PASSWORD_CONFIRM":
         {
