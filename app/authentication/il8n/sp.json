@@ -17,6 +17,7 @@
             "Progress": "Progress",
             "Worksheets": "Worksheets",
             "Manager": "Manager",
+            "Course_manage": "Course manage",
             "REVIEW": "Revision word lists"
         }
     },
@@ -36,7 +37,7 @@
         },
         "REMEMBER": "Recuérdame",
         "FORGOT": "¿Se te olvidó tu contraseña?",
-        "BUTTON": "Regístrate",
+        "BUTTON": "Iniciar sesión",
         "SIGNUP_LINK": "No tienes una cuenta? Crear una ahora",
         "SOCIAL":
         {
@@ -55,7 +56,7 @@
     },
     "SIGNUP":
     {
-        "TITLE": "Regístrate",
+        "TITLE": "Iniciar sesión",
         "Username": "Nombre de usuario por ej. Juan",
         "Username_has_been_taken": "¡Nombre de usuario ha sido tomado, por favor intente con otro nombre de usuario!",
         "Email_in_use": "¡Correo electrónico en uso! Inicia sesión o prueba con otro.",
@@ -128,7 +129,7 @@
         {
             "LABEL": "Confirmar contraseña"
         },
-        "BUTTON": "Regístrate",
+        "BUTTON": "Iniciar sesión",
         "HAVE_LOGIN": "¿Ya tienes una cuenta? Entre aquí.",
         "MESSAGES":
         {
