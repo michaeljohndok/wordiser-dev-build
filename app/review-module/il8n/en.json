@@ -21,7 +21,7 @@
     "REVIEWPAGE": {
     	"Revision_by_month":"Revision by month",
     	"Revision_total_done":"Revision (total done)",
-    	"Progress_total_correct)":"Progress (total correct)",
+    	"Progress_total_correct":"Progress (total correct)",
     	"Problems_total_incorrect":"Problems (total incorrect)",
     	"Total_reviews":"Total reviews",
     	"Total_revised_correctly":"Total revised correctly",
@@ -66,9 +66,9 @@
     	"VOCABULARY":"VOCABULARY",
     	"GRAMMAR":"GRAMMAR",
     	"COURSE_S":"COURSE/S",
-    	"aaaaaaaaaa":"aaaaaaaaaa",
-    	"aaaaaaaaaa":"aaaaaaaaaa",
-    	"aaaaaaaaaa":"aaaaaaaaaa",
+    	"skip":"skip",
+    	"Done":"Done",
+    	"Hint":"Hint",
     	"aaaaaaaaaa":"aaaaaaaaaa"
 
     }
