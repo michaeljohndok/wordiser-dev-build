@@ -1,5 +1,12 @@
 {
     "ADMIN": {
+        "HELP":"HELP",
+        "go_to_home_page":"go to home page",
+        "Next_unit":"Next unit,",
+        "to_unlock":"to unlock!",
+        "Next_unit_unlocked":"Next unit unlocked!",
+        "aaaaaa":"aaaaaa",
+        "aaaaaa":"aaaaaa",
         "TOOLBAR": {
             "SETTINGS": "Settings",
             "PROFILE": "Profile",
