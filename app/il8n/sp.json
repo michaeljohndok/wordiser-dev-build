@@ -5,6 +5,11 @@
         "Next_unit":"Siguiente unidad,",
         "to_unlock":"para desbloquear!",
         "Next_unit_unlocked":"¡La siguiente unidad está desbloqueada!",
+        "Search":"Buscar",
+        "View_saved_list":"Ver lista guardada",
+        "REMOVE":"RETIRAR",
+        "Save_new_list":"GUARDAR NUEVA LISTA",
+        "Select":"SELECCIONAR",
         "TOOLBAR": {
             "SETTINGS": "Settings",
             "PROFILE": "Profile",
