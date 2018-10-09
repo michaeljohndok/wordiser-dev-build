@@ -180,6 +180,7 @@
     },
     "PROFILE":
     {
+        "Payment":"Payment",
         "Settings":"AJUSTES",
         "Profile":"PERFIL",
         "Pick": "Seleccionar",
