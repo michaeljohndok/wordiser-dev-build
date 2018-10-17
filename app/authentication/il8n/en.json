@@ -168,7 +168,7 @@
         }
     },
     "PROFILE": {
-        "Payment":"Payment",
+        "Payments":"Payments",
         "Settings":"Settings",
         "Profile":"Profile",
         "Pick": "Pick",
