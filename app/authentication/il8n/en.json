@@ -167,7 +167,30 @@
             "NO_RESET": "Could not reset users password"
         }
     },
+
+    
     "PROFILE": {
+        "PAYMENT_S":"PAYMENT/S",
+        "ID":"ID",
+        "AMOUNT":"AMOUNT",
+        "DESCRIPTION":"DESCRIPTION",
+        "CUSTOMER":"CUSTOMER",
+        "ACTIONS":"ACTIONS",
+        "View":"View",
+        "NO_ACCESS":"NO ACCESS!",
+        "Pay_for_access":"Pay for access",
+        "Submit_Payment":"Submit Payment",
+        "COURSE_MODULE":"COURSE / MODULE",
+        "AUTHOR":"AUTHOR",
+        "DESCRIPTION":"DESCRIPTION",
+        "PRICE":"PRICE",
+        "REFERENCE":"REFERENCE",
+        "aaaaaaaaaa":"aaaaaaaaaa",
+        "aaaaaaaaaa":"aaaaaaaaaa",
+        "aaaaaaaaaa":"aaaaaaaaaa",
+        "aaaaaaaaaa":"aaaaaaaaaa",
+        "aaaaaaaaaa":"aaaaaaaaaa",
+        "aaaaaaaaaa":"aaaaaaaaaa",
         "Payments":"Payments",
         "Settings":"Settings",
         "Profile":"Profile",
