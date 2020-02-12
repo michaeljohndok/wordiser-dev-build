@@ -1,13 +1,16 @@
 {
     "HOME": {
-        "STUDY":"¡ESTUDIA AHORA!",
-        "COURSES":"CURSOS",
+        "STUDY":"¡REVISE AHORA!",
+        "ADMIN":"ADMINISTRADOR",
+        "COURSES":"DIRECTORIO DE CURSOS",
         "REFERENCE":"REFERENCIA",
         "STUDY_NOTES":"NOTAS DE ESTUDIO",
         "MY_PROGRESS":"MI PROGRESO",
         "PROGRESS":"PROGRESS",
         "WORKSHEETS":"WORKSHEETS",
-        "MANAGER":"MANAGER",
+        "MANAGER":"DIRECTOR DE CLASES Y CURSOS",
+        "MY_LEARNING":"MI APRENDIZAJE",
+        "CONTENT_CREATOR":"CREADOR DE CONTENIDO",
         "aaaa":"aaaa"
     },
     "MENU": {
@@ -33,7 +36,7 @@
             "Progress": "Progress",
             "Worksheets": "Worksheets",
             "Manager": "Manager",
-            "Course_manage": "Course manage",
+            "Course_manage": "Course manager",
             "Tutorial_Data": "Tutorial Data",
             "REVIEW": "Revision word lists"
         }
@@ -44,13 +47,13 @@
         "EMAIL":
         {
             "LABEL": "Correo electrónico",
-            "PLEASE_ENTER": "Por favor introduzca su correo electrónico.",
+            "PLEASE_ENTER": "Por favor introduzca su correo electrónico!",
             "PLEASE_VALID": "Por favor, introduce una dirección de correo electrónico válida."
         },
         "PASSWORD":
         {
             "LABEL": "Contraseña",
-            "PLEASE_ENTER": "Por favor ingrese su contraseña."
+            "PLEASE_ENTER": "Por favor ingrese su contraseña!"
         },
         "REMEMBER": "Recuérdame",
         "FORGOT": "¿Se te olvidó tu contraseña?",
@@ -65,7 +68,7 @@
             "ACCESS_DENIED": "¡Nombre de usuario / contraseña incorrecta!"
         },
         "dont_have_an": "No tienes una cuenta? ¡Únete gratis!",
-        "Username_or_email": "Nombre de usuario o correo electrónico, por ej. Juan juan@email.com",
+        "Username_or_email": "Nombre de usuario o correo electrónico, por ej. Juan o juan@email.com",
         "JOIN": "REGISTRATE Y ÚNETE",
         "SPANISH": "ESPAÑOL",
         "English": "English",
@@ -198,8 +201,9 @@
         "SELLER":"VENDEDOR",
         "Search":"Buscar",
         "Subjects_Topics":"Subjectos / Temas",
-        "aaaaaaaaaa":"aaaaaaaaaa",
-        "aaaaaaaaaa":"aaaaaaaaaa",
+        "change_image":"change image",
+        "PRIVATE":"PRIVADO",
+        "NOT_NEEDED":"NO REQUERIDO",
         "aaaaaaaaaa":"aaaaaaaaaa",
         "aaaaaaaaaa":"aaaaaaaaaa",
         "Payments":"PAGOS",
@@ -217,7 +221,7 @@
         "Location": "Ubicación",
         "School": "Escuela",
         "Website_or_blog": "Sitio web o blog",
-        "Twitter": "Twitter",
+        "Twitter": "SOCIAL MEDIA",
         "Personal_description": "Descripción personal",
         "Reset_TUTORIAL": "Restablecer TUTORIAL",
         "Update": "Actualizar",
@@ -236,6 +240,8 @@
         "Update": "Actualizar",
         "RESET": "REINICIAR",
         "TITLE": "Perfil",
+        "Company_id": "Company id",
+        "Join_compnay": "join channel",
         "NAME":
         {
             "LABEL": "Nombre",

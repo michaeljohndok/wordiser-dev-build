@@ -1,13 +1,16 @@
 {
     "HOME": {
-        "STUDY":"STUDY",
-        "COURSES":"COURSES",
+        "STUDY":"REVISE NOW",
+        "ADMIN":"ADMIN",
+        "COURSES":"COURSE DIRECTORY",
         "REFERENCE":"REFERENCE",
         "STUDY_NOTES":"STUDY NOTES",
         "MY_PROGRESS":"MY PROGRESS",
         "PROGRESS":"PROGRESS",
         "WORKSHEETS":"WORKSHEETS",
-        "MANAGER":"MANAGER",
+        "MANAGER":"CLASS & COURSE MANAGER",
+        "MY_LEARNING":"MY LEARNING",
+        "CONTENT_CREATOR":"CONTENT CREATOR",
         "aaaa":"aaaa"
     },
     "MENU": {
@@ -33,7 +36,7 @@
             "Progress": "Progress",
             "Worksheets": "Worksheets",
             "Manager": "Manager",
-            "Course_manage": "Course manage",
+            "Course_manage": "Course manager",
             "REVIEW": "Revision word lists"
 
         }
@@ -42,12 +45,12 @@
         "TITLE": "Login",
         "EMAIL": {
             "LABEL": "Email",
-            "PLEASE_ENTER": "Please enter your email address.",
-            "PLEASE_VALID": "Please enter a valid email address."
+            "PLEASE_ENTER": "Please enter your email address!",
+            "PLEASE_VALID": "Please enter a valid email address!"
         },
         "PASSWORD": {
             "LABEL": "Password",
-            "PLEASE_ENTER": "Please enter your password."
+            "PLEASE_ENTER": "Please enter your password!"
         },
         "REMEMBER": "Remember Me",
         "FORGOT": "Forgot password?",
@@ -81,7 +84,7 @@
         "Student": "Student",
         "Please_select_a_role": "Please select a role!",
         "My_first_language": " My first language is...",
-        "School_you_work_at": "School you work at",
+        "School_you_work_at": "Corporate L&D",
         "privacy": "privacy",
         "View_agreement": "View agreement",
         "ACCEPT": "ACCEPT",
@@ -156,8 +159,8 @@
         "ENTER_EMAIL": "Please enter your email below",
         "EMAIL": {
             "LABEL": "email",
-            "PLEASE_ENTER": "Please enter your email address.",
-            "PLEASE_VALID": "Please enter a valid email address."
+            "PLEASE_ENTER": "Please enter your email address!",
+            "PLEASE_VALID": "Please enter a valid email address!"
         },
         "RESET": "Reset",
         "LOGIN": "Remembered it? Login in here",
@@ -189,9 +192,9 @@
         "SELLER":"SELLER",
         "Search":"Search",
         "Subjects_Topics":"Subjects / Topics",
-        "aaaaaaaaaa":"aaaaaaaaaa",
-        "aaaaaaaaaa":"aaaaaaaaaa",
-        "aaaaaaaaaa":"aaaaaaaaaa",
+        "PRIVATE":"PRIVATE",
+        "NOT_NEEDED":"NOT NEEDED",
+        "change_image":"change image",
         "Payments":"Payments",
         "Settings":"Settings",
         "Profile":"Profile",
@@ -207,7 +210,7 @@
         "Location": "Location",
         "School": "School",
         "Website_or_blog": "Website or blog",
-        "Twitter": "Twitter",
+        "Twitter": "Social media",
         "Personal_description": "Personal description",
         "Reset_TUTORIAL": "Reset TUTORIAL",
         "Update": "Update",
@@ -219,12 +222,14 @@
         "US_spelling_pronunciation": "US spelling / pronunciation",
         "Level": "Level",
         "English_level": "English level",
-        "Rest_password": "Rest password",
-        "If_you_want_to_change_your_password": "If you want to change your password click on the button below. You will be sent an email.",
+        "Rest_password": "Password",
+        "If_you_want_to_change_your_password": "Change password with button below. You will be sent an email.",
         "Enable_add_home_screen": "Enable add home screen",
         "Receive_email_notifications": "Receive email notifications",
         "Update": "Update",
-        "RESET": "RESET",
+        "RESET": "Change password",
+        "Company_id": "Company id",
+        "Join_compnay": "Join channel",
         "TITLE": "Profile",
         "NAME": {
             "LABEL": "name",
@@ -232,8 +237,8 @@
         },
         "EMAIL": {
             "LABEL": "email",
-            "PLEASE_ENTER": "Please enter your email address",
-            "PLEASE_VALID": "Please enter a valid email address"
+            "PLEASE_ENTER": "Please enter your email address!",
+            "PLEASE_VALID": "Please enter a valid email address!"
         },
         "LOCATION": {
             "LABEL": "location"
